@@ -58,6 +58,7 @@ search.addEventListener("submit", (e) => {
 function showData(player) {
   const profile1 = document.getElementById("profile1_container");
   const profile2 = document.getElementById("profile2");
+  profile1.innerText = "";
   let img = document.createElement("img");
   img.setAttribute("src", `${player.photourl}`);
   img.style.width = "100px";
