@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.profile1 {
+  width: 30%;
+}
+#profile2 {
+  width: 70%;
+}
+
+#profile1_container {
+  display: flex;
+  flex-direction: column;
+}
